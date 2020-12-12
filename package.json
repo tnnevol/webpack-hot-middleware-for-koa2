@@ -1,38 +1,37 @@
 {
   "name": "webpack-hot-middleware-by-koa2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "用于koa2的webpack-hot-middleware的中间件",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "tnnevol newblue koa2-webpack-hot-middleware webpack-hot-middleware"
+    "tnnevol",
+    "newblue",
+    "koa2",
+    "webpack",
+    "middleware",
+    "koa2-webpack-hot-middleware",
+    "webpack-hot-middleware",
+    "webpack-hot-middleware-by-koa2"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/tnnevol/koa2-webpack-hot-middleware.git"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
     "webpack-hot-middleware": "^2.25.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/plugin-transform-async-to-generator": "^7.12.1",
-    "@babel/preset-env": "^7.12.1",
-    "@babel/register": "^7.12.1",
-    "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.1.0",
-    "eslint": "^7.11.0",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.2",
-    "webpack": "^4.44.2",
-    "webpack-merge": "^5.2.0"
+    "@babel/preset-env": "^7.12.1"
   },
-  "author": "tnnevol",
-  "license": "ISC"
+  "author": "greecenew@foxmail.com",
+  "license": "MIT"
 }
