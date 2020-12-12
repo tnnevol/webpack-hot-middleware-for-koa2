@@ -1,6 +1,6 @@
 {
-  "name": "webpack-hot-middleware-by-koa2",
-  "version": "1.1.0",
+  "name": "webpack-hot-middleware-for-koa2",
+  "version": "1.1.1",
   "description": "用于koa2的webpack-hot-middleware的中间件",
   "main": "dist/index.js",
   "scripts": {
@@ -15,11 +15,11 @@
     "middleware",
     "koa2-webpack-hot-middleware",
     "webpack-hot-middleware",
-    "webpack-hot-middleware-by-koa2"
+    "webpack-hot-middleware-for-koa2"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tnnevol/koa2-webpack-hot-middleware.git"
+    "url": "https://github.com/tnnevol/webpack-hot-middleware-for-koa2.git"
   },
   "dependencies": {
     "webpack-hot-middleware": "^2.25.0"
