@@ -1,5 +1,5 @@
 {
-  "name": "@koa/webpack-hot-middleware",
+  "name": "webpack-hot-middleware-by-koa2",
   "version": "1.0.0",
   "description": "用于koa2的webpack-hot-middleware的中间件",
   "main": "index.js",
@@ -9,6 +9,10 @@
   "keywords": [
     "tnnevol newblue koa2-webpack-hot-middleware webpack-hot-middleware"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnnevol/koa2-webpack-hot-middleware.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "webpack-hot-middleware": "^2.25.0"
