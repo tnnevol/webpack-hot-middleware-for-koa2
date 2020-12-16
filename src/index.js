@@ -1,3 +1,5 @@
+"use strict";
+
 const hotMiddleware = require("webpack-hot-middleware");
 
 function middleware(doIt, req, res) {
